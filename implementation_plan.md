@@ -6,7 +6,7 @@ Este documento describe el plan de implementación del sistema **SteamStorm**, u
 ---
 
 ## 2. Equipo y Roles
-- **Líder/Coordinador**: Camilo  
+- **Líder/Coordinador**: Carlos Sepúlveda 
   - Gestiona plazos, organización y entregas.  
 - **Analista de Requisitos**: [Nombre del compañero]  
   - Documenta casos de uso y requisitos.  
