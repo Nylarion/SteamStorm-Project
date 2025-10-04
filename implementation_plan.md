@@ -2,7 +2,6 @@
 
 ## Stack tecnológico
 - Backend: Node.js + Express
-- Base de datos: PostgreSQL
 - Frontend: React
 - Autenticación: JWT + bcrypt
 - IA: Algoritmos de recomendación simples
