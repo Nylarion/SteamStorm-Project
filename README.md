@@ -34,3 +34,13 @@ Además, para el uso del raking y ver reseñas de Steam usaremos:
 <p align="center">
     <img width="165" height="165" alt="image" src="https://github.com/user-attachments/assets/8a36a401-db9a-45ae-9eae-d8eaad23f629" style="display: block; margin: 0 auto;" />
 </p>
+
+---
+
+## Contacto
+
+Nuestros correos de contacto son:
+
+- Luis: lcerda2023@alu.uct.cl
+- Braulio: bpalma2025@alu.uct.cl
+- Carlos: csepulveda@alu.uct.cl
