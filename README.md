@@ -26,5 +26,5 @@ Además, para el uso del raking y ver reseñas de Steam usaremos:
 - Steam API
 
 <p align="center">
-    <img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/8a36a401-db9a-45ae-9eae-d8eaad23f629" style="display: block; margin: 0 auto;" />
+    <img width="165" height="165" alt="image" src="https://github.com/user-attachments/assets/8a36a401-db9a-45ae-9eae-d8eaad23f629" style="display: block; margin: 0 auto;" />
 </p>
