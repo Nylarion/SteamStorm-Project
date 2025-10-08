@@ -9,6 +9,12 @@ Los integrantes del proyecto son:
 
 ---
 
+## Enfoque
+
+Nuestro enfoque en el proyecto es que los usuarios tanto principiantes como experimantados en el uso de la plataforma Steam puedan tener un fácil acceso a las reseñas para así poder tomar una buena decisión al momento de comprar un videojuego.
+
+---
+
 ## Tecnologías que vamos a usar el proyecto
 
 Algunas de las tecnologías que vamos a usar el nuestro proyecto serán:
