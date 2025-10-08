@@ -30,3 +30,7 @@ Además de la implementación de la api de Steam, para el uso de los datos de ra
   <img src="https://github.com/user-attachments/assets/018e7463-f154-4100-896c-41fb4df88ac6" alt="Steam" width="330" height="330">
 </div>
 
+<div style="display: flex; justify-content: center; gap: 50px; align-items: center; margin-top: 50px;">
+  <img src="https://github.com/user-attachments/assets/8a36a401-db9a-45ae-9eae-d8eaad23f629" alt="Api" width="330" height="330">
+  <img src="https://github.com/user-attachments/assets/018e7463-f154-4100-896c-41fb4df88ac6" alt="Steam" width="330" height="330">
+</div>
