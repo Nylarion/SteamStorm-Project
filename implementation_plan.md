@@ -8,13 +8,13 @@ Este documento describe el plan de implementación del sistema **SteamStorm**, u
 ## 2. Equipo y Roles
 - **Líder/Coordinador**: Carlos Sepúlveda 
   - Gestiona plazos, organización y entregas.  
-- **Analista de Requisitos**: [Nombre del compañero]  
+- **Analista de Requisitos**: Luis Cerda  
   - Documenta casos de uso y requisitos.  
-- **Diseñador UML**: [Nombre del compañero]  
+- **Diseñador UML**: Braulio Palma  
   - Crea y mantiene los diagramas de clases y casos de uso.  
-- **Planificador / Dev Lead**: [Nombre del compañero]  
+- **Planificador / Dev Lead**: Luis Cerda y Braulio Palma 
   - Asigna tareas y coordina el desarrollo.  
-- **Presentador / QA**: [Nombre del compañero]  
+- **Presentador / QA**: Carlos Sepúlveda
   - Prepara las slides, la demo y asegura la calidad del sistema.  
 
 ---
