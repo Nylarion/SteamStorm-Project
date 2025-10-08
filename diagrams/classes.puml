@@ -1,12 +1,28 @@
-@startuml SteamStormDiagrama
-class Usuario {
-  - idUsuario : int
+@startuml SteamStorm
+
+' --- Entidades base ---
+class Persona {
+  - idPersona : int
   - nombre : string
   - correo : string
-  + agregarReseña(juego: Juego, reseña: Reseña) : void
-  + verRanking() : Ranking
+  + iniciarSesion() : boolean
+  + cerrarSesion() : void
 }
 
+' --- Subclases que dependen de Persona ---
+class Usuario {
+  - nickname : string
+  + agregarReseña(juego: Juego, reseña: Reseña) : void
+  + verRanking() : Ranking
+  + agregarAlCarrito(juego: Juego) : void
+}
+
+class Administrador {
+  + gestionarJuego(juego: Juego) : void
+  + gestionarUsuarios() : void
+}
+
+' --- Clases funcionales ---
 class Reseña {
   - idReseña : int
   - comentario : string
@@ -37,14 +53,6 @@ class SteamAPI {
   + obtenerDetallesJuego(id:int) : Juego
 }
 
-class Oferta {
-  - idOferta : int
-  - descuento : float
-  - fechaInicio : Date
-  - fechaFin : Date
-  + aplicarDescuento(juego: Juego) : float
-}
-
 class AsistenteIA {
   - idAsistente : int
   - nombre : string
@@ -60,12 +68,16 @@ class Carrito {
   + calcularTotal() : float
 }
 
-Usuario "1" --> "1..*" Reseña
-Reseña "1" --> "1" Juego
-Ranking "1" --> "*" Juego
-SteamAPI --> Juego
-Juego --> "0..1" Oferta
-AsistenteIA --> Usuario
-AsistenteIA --> Juego
-Usuario --> Carrito
+' --- Relaciones de dependencia y herencia ---
+Persona <|-- Usuario
+Persona <|-- Administrador
+Usuario *-- Carrito : posee
+Usuario *-- Reseña : escribe
+Juego o-- Reseña : tiene
+Ranking *-- Juego : incluye
+SteamAPI ..> Juego : consulta
+Administrador *-- Juego : administra
+AsistenteIA ..> Usuario : analiza
+AsistenteIA ..> Juego : recomienda
+
 @enduml
