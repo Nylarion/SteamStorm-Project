@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Juego | SteamStorm</title>
+    <link rel="icon" type="image/png" href="../Images/favicon.png">
+    <link rel="stylesheet" href="../CSS/style_detalle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="encabezado">
+        <img src="../Images/steamstorm_logo_alpha2.png" alt="" width="200,1" height="53,7">
+    </div>
+    <div class="sub_encabezado">
+        <a href="inicio_user.html"> ← Volver</a>
+    </div>
+
+    <div style="padding: 20px; background: #1f2833; display:flex; justify-content:space-between; align-items:center;">
+        <img src="../Images/steamstorm_logo_alpha2.png" alt="Logo" width="150">
+        <a href="inicio_user.html" style="color:#66fcf1; text-decoration:none; font-weight:bold;">
+            <i class="fas fa-arrow-left"></i> Volver
+        </a>
+    </div>
+
+    <div class="detalle-container">
+        
+        <div id="detalle-juego-content">
+            <h2 style="text-align:center;">Cargando...</h2>
+        </div>
+
+        <div id="opiniones" style="margin-top:50px;">
+            <h2 style="color:#a3cef1; border-bottom: 1px solid #a3cef1; padding-bottom: 10px;">
+                <i class="fas fa-comments"></i> Opiniones de la comunidad
+            </h2>
+            <div class="form-review">
+                <h3>Deja tu opinión:</h3>
+                <select id="rating-input">
+                    <option value="100">⭐⭐⭐⭐⭐ (Excelente)</option>
+                    <option value="80">⭐⭐⭐⭐ (Muy bueno)</option>
+                    <option value="60">⭐⭐⭐ (Regular)</option>
+                    <option value="40">⭐⭐ (Malo)</option>
+                    <option value="20">⭐ (Terrible)</option>
+                </select>
+                <textarea id="comment-input" rows="5" placeholder="¿Qué te pareció este juego?"></textarea>
+                <button class="btn-submit" onclick="enviarReseña()">Publicar Reseña</button>
+            </div>
+            <div id="lista-opiniones"></div>
+        </div>
+    </div>
+
+    <script src="../Scripts/script_Menu.js"></script>
+    <script src="../Scripts/datos_backup.js"></script>
+    <script src="../Scripts/script_detalle.js"></script>
+</body>
+</html>
