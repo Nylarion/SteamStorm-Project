@@ -9,7 +9,7 @@ El sistema también cuenta con funcionalidades de administración para gestionar
 ## 2. Requerimientos Funcionales
 
 ### 2.1. Gestión de Usuarios
-- RF1: El sistema debe permitir el **registro de nuevos usuarios** mediante correo electrónico y contraseña.  
+- RF1: El sistema debe permitir el **registro de nuevos usuarios** mediante nombre de usuario y contraseña.  
 - RF2: El sistema debe permitir a los usuarios **iniciar sesión**.  
 - RF3: El usuario debe poder **ver y editar su perfil**.  
 - RF4: El usuario debe poder **gestionar su lista de deseos**.  
