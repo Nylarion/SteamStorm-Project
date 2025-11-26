@@ -90,21 +90,6 @@ Deberías ver: 🚀 Servidor Full Stack listo en puerto 3000.
 ### 5. Ejecutar el Frontend
 No requiere instalación. Puedes abrir el archivo Guest/inicio_guest.html directamente en tu navegador o usar Live Server en VS Code.
 
-SteamStorm/
-├── Backend/            # Servidor Node.js y Lógica de Negocio
-│   ├── server.js       # Punto de entrada y rutas
-│   ├── auth.js         # Rutas de autenticación
-│   ├── db.js           # Conexión a PostgreSQL
-│   └── middleware.js   # Protección de rutas (Admin)
-├── CSS/                # Estilos globales y específicos
-├── Scripts/            # Lógica del cliente (JS)
-│   ├── steamgames.js   # Carga de juegos (Lógica Híbrida)
-│   ├── datos_backup.js # Base de datos local de respaldo
-│   └── ...
-├── User/               # Páginas privadas (Perfil, Wishlist)
-├── Guest/              # Páginas públicas
-└── Images/             # Recursos gráficos
-
 👥 Equipo de Desarrollo
 Luis Cerda Desarrollador Full Stack lcerda2023@alu.uct.cl
 Braulio Palma Desarrollador Backend bpalma2025@alu.uct.cl
