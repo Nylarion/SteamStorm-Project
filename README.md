@@ -3,7 +3,6 @@
 ![Estado](https://img.shields.io/badge/Estado-Finalizado-success?style=for-the-badge&logo=github)
 ![Node](https://img.shields.io/badge/Node.js-v20+-green?style=for-the-badge&logo=nodedotjs)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Cloud-blue?style=for-the-badge&logo=postgresql)
-![License](https://img.shields.io/badge/Licencia-MIT-orange?style=for-the-badge)
 
 > **Proyecto académico para el curso de Diseño y Desarrollo de Software.**
 > Universidad Católica de Temuco - 2025.
