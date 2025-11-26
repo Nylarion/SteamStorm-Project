@@ -1,7 +1,7 @@
 # Requerimientos del Proyecto SteamStorm
 
 ## 1. Introducción
-SteamStorm es una aplicación que permite a los usuarios explorar videojuegos obtenidos desde la **API de Steam**, visualizar rankings de los juegos mejor valorados, dejar reseñas, simular compras en un carrito, y recibir recomendaciones personalizadas a través de un asistente inteligente.  
+SteamStorm es una aplicación que permite a los usuarios explorar videojuegos obtenidos desde la **API de Steam**, visualizar rankings de los juegos mejor valorados, dejar reseñas y recibir recomendaciones personalizadas a través de un asistente inteligente.  
 El sistema también cuenta con funcionalidades de administración para gestionar usuarios, reseñas y juegos.
 
 ---
@@ -27,25 +27,21 @@ El sistema también cuenta con funcionalidades de administración para gestionar
 - RF10: El sistema debe **calcular un ranking global** de videojuegos basado en puntuaciones.  
 - RF11: El sistema debe mostrar el **Top 10 de juegos más valorados**.  
 
-### 2.5. Carrito de Compras (simulado)
-- RF12: El usuario debe poder **agregar juegos al carrito de compras**.  
-- RF13: El sistema debe calcular el **total de la compra**.  
+### 2.5. Ofertas y Descuentos
+- RF12: El sistema debe aplicar **descuentos** a ciertos juegos.  
+- RF13: El sistema debe permitir **ver las ofertas vigentes** con sus fechas de inicio y fin.  
 
-### 2.6. Ofertas y Descuentos
-- RF14: El sistema debe aplicar **descuentos** a ciertos juegos.  
-- RF15: El sistema debe permitir **ver las ofertas vigentes** con sus fechas de inicio y fin.  
+### 2.6. Asistente Inteligente
+- RF14: El sistema debe **sugerir juegos** a los usuarios según sus preferencias.  
+- RF15: El asistente debe **responder preguntas básicas** sobre los juegos y la plataforma.  
+- RF16: El asistente debe permitir **analizar las preferencias** del usuario para mejorar recomendaciones.  
 
-### 2.7. Asistente Inteligente
-- RF16: El sistema debe **sugerir juegos** a los usuarios según sus preferencias.  
-- RF17: El asistente debe **responder preguntas básicas** sobre los juegos y la plataforma.  
-- RF18: El asistente debe permitir **analizar las preferencias** del usuario para mejorar recomendaciones.  
-
-### 2.8. Administración
-- RF19: El administrador debe poder **gestionar usuarios** (crear, editar, eliminar).  
-- RF20: El administrador debe poder **gestionar videojuegos** (agregar, actualizar, eliminar).  
-- RF21: El administrador debe poder **gestionar reseñas** (aprobar, eliminar reportadas).  
-- RF22: El administrador debe poder **generar reportes** de actividad en la plataforma.  
-- RF23: El administrador debe poder **configurar parámetros del sistema**.  
+### 2.7. Administración
+- RF17: El administrador debe poder **gestionar usuarios** (crear, editar, eliminar).  
+- RF18: El administrador debe poder **gestionar videojuegos** (agregar, actualizar, eliminar).  
+- RF19: El administrador debe poder **gestionar reseñas** (aprobar, eliminar reportadas).  
+- RF20: El administrador debe poder **generar reportes** de actividad en la plataforma.  
+- RF21: El administrador debe poder **configurar parámetros del sistema**.  
 
 ---
 
